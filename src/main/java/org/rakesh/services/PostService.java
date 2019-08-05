@@ -29,7 +29,7 @@ public class PostService {
 	}
 
 	public void updatePost(Post post) {
-		repo.save(post);		
+		repo.save(post); 		
 	}
 
 	public void deletePost(int id) {

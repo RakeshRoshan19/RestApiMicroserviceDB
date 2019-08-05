@@ -16,7 +16,7 @@ import java.util.List;
 public class PostsController {
 	
 	@Autowired
-	private PostService service;
+	private PostService service; 
 	
 	@RequestMapping("/posts")
 	public List<Post> getPosts() {
